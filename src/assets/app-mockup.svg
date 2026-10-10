@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 450" fill="none">
+  <defs>
+    <linearGradient id="dashBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="dashShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#dashShadow)">
+    <!-- Main Desktop Screen Frame -->
+    <rect x="20" y="20" width="460" height="340" rx="14" fill="url(#dashBg)" stroke="#334155" stroke-width="2"/>
+
+    <!-- Screen Title Bar -->
+    <rect x="20" y="20" width="460" height="34" rx="14 14 0 0" fill="#1E293B"/>
+    <circle cx="42" cy="37" r="4" fill="#EF4444"/>
+    <circle cx="56" cy="37" r="4" fill="#F59E0B"/>
+    <circle cx="70" cy="37" r="4" fill="#10B981"/>
+    <text x="250" y="41" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#94A3B8" text-anchor="middle">MAHI ENTERPRISE | Fleet Cloud GPS Portal</text>
+
+    <!-- Sidebar in Mockup -->
+    <rect x="20" y="54" width="70" height="306" fill="#0B132B"/>
+    <rect x="28" y="70" width="54" height="24" rx="6" fill="#1D4ED8"/>
+    <text x="55" y="85" font-family="'Inter', sans-serif" font-size="8" font-weight="700" fill="#FFFFFF" text-anchor="middle">LIVE MAP</text>
+
+    <rect x="28" y="105" width="54" height="22" rx="6" fill="#1E293B"/>
+    <text x="55" y="119" font-family="'Inter', sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">HISTORY</text>
+
+    <rect x="28" y="135" width="54" height="22" rx="6" fill="#1E293B"/>
+    <text x="55" y="149" font-family="'Inter', sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">FENCE</text>
+
+    <rect x="28" y="165" width="54" height="22" rx="6" fill="#1E293B"/>
+    <text x="55" y="179" font-family="'Inter', sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">ALERTS</text>
+
+    <rect x="28" y="195" width="54" height="22" rx="6" fill="#1E293B"/>
+    <text x="55" y="209" font-family="'Inter', sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">REPORTS</text>
+
+    <!-- Map Canvas Area -->
+    <rect x="90" y="54" width="390" height="306" fill="#0F172A"/>
+    
+    <!-- Map Streets Grid -->
+    <path d="M120 70 L460 70 M90 140 L480 140 M90 230 L480 230 M90 310 L480 310" stroke="#1E293B" stroke-width="2"/>
+    <path d="M170 54 L170 360 M270 54 L270 360 M380 54 L380 360" stroke="#1E293B" stroke-width="2"/>
+    <path d="M90 270 C200 200, 300 280, 480 170" stroke="#334155" stroke-width="8"/>
+    
+    <!-- Geofence Zone Circle -->
+    <circle cx="260" cy="180" r="55" fill="#3B82F6" opacity="0.12" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="260" y="140" font-family="'Inter', sans-serif" font-size="8" font-weight="700" fill="#60A5FA" text-anchor="middle">GEOFENCE ZONE: AHMEDABAD HUB</text>
+
+    <!-- Vehicle Marker 1 (Active) -->
+    <g transform="translate(250, 180)">
+      <circle cx="0" cy="0" r="14" fill="#1D4ED8" opacity="0.4"/>
+      <circle cx="0" cy="0" r="8" fill="#22C55E"/>
+      <polygon points="0,-4 3,3 -3,3" fill="#FFFFFF"/>
+      
+      <!-- Info Popup -->
+      <g transform="translate(15, -45)">
+        <rect x="0" y="0" width="120" height="42" rx="6" fill="#0B132B" stroke="#22C55E" stroke-width="1.5"/>
+        <text x="8" y="14" font-family="'Inter', sans-serif" font-size="8.5" font-weight="800" fill="#FFFFFF">GJ-01-XX-2131 (TRUCK)</text>
+        <text x="8" y="26" font-family="'Inter', sans-serif" font-size="8" fill="#22C55E">● Moving: 54 km/h</text>
+        <text x="8" y="37" font-family="'Inter', sans-serif" font-size="7.5" fill="#94A3B8">Fuel: 78% | Gov: Active</text>
+      </g>
+    </g>
+
+    <!-- Vehicle Marker 2 (Speed Alert) -->
+    <g transform="translate(390, 120)">
+      <circle cx="0" cy="0" r="12" fill="#DC2626" opacity="0.4"/>
+      <circle cx="0" cy="0" r="7" fill="#DC2626"/>
+      <!-- Alert popup -->
+      <g transform="translate(-105, -35)">
+        <rect x="0" y="0" width="95" height="30" rx="4" fill="#0B132B" stroke="#DC2626" stroke-width="1"/>
+        <text x="6" y="13" font-family="'Inter', sans-serif" font-size="7.5" font-weight="700" fill="#EF4444">⚠️ OVERSPEED ALERT</text>
+        <text x="6" y="24" font-family="'Inter', sans-serif" font-size="7" fill="#E2E8F0">Vehicle at 78 km/h</text>
+      </g>
+    </g>
+
+    <!-- Smartphone Mockup Overlaying Bottom Right -->
+    <g transform="translate(420, 110)">
+      <!-- Phone Body -->
+      <rect x="0" y="0" width="180" height="320" rx="28" fill="#0F172A" stroke="#475569" stroke-width="4"/>
+      <rect x="60" y="8" width="60" height="12" rx="6" fill="#020617"/>
+      <!-- Inner Screen -->
+      <rect x="10" y="26" width="160" height="280" rx="18" fill="#0B1528"/>
+
+      <!-- App Header -->
+      <rect x="10" y="26" width="160" height="36" rx="18 18 0 0" fill="#1D4ED8"/>
+      <text x="90" y="48" font-family="'Inter', sans-serif" font-size="9.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">MAHI GPS MOBILE</text>
+
+      <!-- Mini Map in App -->
+      <rect x="18" y="70" width="144" height="110" rx="10" fill="#1E293B"/>
+      <circle cx="90" cy="120" r="28" fill="#3B82F6" opacity="0.15"/>
+      <circle cx="90" cy="120" r="6" fill="#22C55E"/>
+      <path d="M40 140 Q 90 90, 140 130" stroke="#38BDF8" stroke-width="2" stroke-dasharray="3 3"/>
+
+      <!-- Stat Cards in App -->
+      <g transform="translate(18, 190)">
+        <rect x="0" y="0" width="68" height="42" rx="6" fill="#162238" stroke="#334155" stroke-width="1"/>
+        <text x="8" y="16" font-family="'Inter', sans-serif" font-size="7.5" fill="#94A3B8">Live Speed</text>
+        <text x="8" y="32" font-family="'Inter', sans-serif" font-size="11" font-weight="800" fill="#22C55E">52 km/h</text>
+
+        <rect x="76" y="0" width="68" height="42" rx="6" fill="#162238" stroke="#334155" stroke-width="1"/>
+        <text x="84" y="16" font-family="'Inter', sans-serif" font-size="7.5" fill="#94A3B8">Ignition</text>
+        <text x="84" y="32" font-family="'Inter', sans-serif" font-size="11" font-weight="800" fill="#38BDF8">ON</text>
+      </g>
+
+      <!-- Quick Action Buttons in App -->
+      <rect x="18" y="242" width="144" height="24" rx="6" fill="#EA580C"/>
+      <text x="90" y="258" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">⚡ Immobilize / Cut-off Engine</text>
+
+      <rect x="18" y="272" width="144" height="22" rx="6" fill="#1E293B"/>
+      <text x="90" y="286" font-family="'Inter', sans-serif" font-size="8" font-weight="600" fill="#94A3B8" text-anchor="middle">View Route History</text>
+    </g>
+  </g>
+</svg>

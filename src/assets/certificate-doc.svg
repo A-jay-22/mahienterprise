@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 950" fill="none">
+  <defs>
+    <linearGradient id="paperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <filter id="docShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0B132B" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#docShadow)">
+    <!-- Certificate Sheet -->
+    <rect x="20" y="20" width="660" height="910" rx="12" fill="url(#paperGrad)" stroke="#CBD5E1" stroke-width="2"/>
+    
+    <!-- Outer Guilloche Ornate Border -->
+    <rect x="35" y="35" width="630" height="880" rx="8" stroke="#1D4ED8" stroke-width="2" fill="none"/>
+    <rect x="42" y="42" width="616" height="866" rx="6" stroke="#EA580C" stroke-width="1" stroke-dasharray="6 3" fill="none"/>
+
+    <!-- Watermark in background -->
+    <g transform="translate(350, 480)" opacity="0.04">
+      <circle cx="0" cy="0" r="180" fill="#1D4ED8"/>
+    </g>
+
+    <!-- Certificate Header -->
+    <g transform="translate(350, 100)" text-anchor="middle">
+      <!-- Seal Emblem -->
+      <circle cx="0" cy="0" r="30" fill="#0B1528" stroke="#1D4ED8" stroke-width="2"/>
+      <circle cx="0" cy="0" r="24" stroke="#EA580C" stroke-width="1.5" stroke-dasharray="3 2"/>
+      <text x="0" y="8" font-family="'Inter', serif" font-weight="900" font-size="22" fill="#FFFFFF">M</text>
+
+      <text x="0" y="55" font-family="'Inter', sans-serif" font-weight="900" font-size="20" fill="#0B1528" letter-spacing="1">AUTOMOTIVE COMPLIANCE &amp; APPROVAL</text>
+      <text x="0" y="75" font-family="'Inter', sans-serif" font-weight="600" font-size="12" fill="#4B5563">CENTRAL MOTOR VEHICLE RULES (CMVR) STANDARDS</text>
+      <text x="0" y="92" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#1D4ED8">TYPE APPROVAL &amp; CONFORMITY OF PRODUCTION</text>
+    </g>
+
+    <!-- Divider Line -->
+    <line x1="80" y1="210" x2="620" y2="210" stroke="#CBD5E1" stroke-width="1.5"/>
+
+    <!-- Certificate Body Details -->
+    <g transform="translate(80, 240)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-weight="600" font-size="13" fill="#64748B">ISSUED TO / AUTHORIZED AGENCY:</text>
+      <text x="0" y="28" font-family="'Inter', sans-serif" font-weight="900" font-size="24" fill="#0B1528">MAHI ENTERPRISE</text>
+      <text x="0" y="48" font-family="'Inter', sans-serif" font-weight="600" font-size="12" fill="#334155">Speed Governor &amp; GPS Vehicle Tracking Solutions</text>
+      <text x="0" y="66" font-family="'Inter', sans-serif" font-size="11" fill="#64748B">Ahmedabad &amp; Gandhinagar, Gujarat, India</text>
+
+      <!-- Scope Table -->
+      <g transform="translate(0, 95)">
+        <rect x="0" y="0" width="540" height="260" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1.5"/>
+        
+        <!-- Table Header -->
+        <rect x="0" y="0" width="540" height="36" rx="8 8 0 0" fill="#0B1528"/>
+        <text x="20" y="23" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">ITEM / SPECIFICATION</text>
+        <text x="320" y="23" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">STANDARDS &amp; COMPLIANCE</text>
+
+        <!-- Row 1 -->
+        <line x1="0" y1="75" x2="540" y2="75" stroke="#E2E8F0"/>
+        <text x="20" y="58" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#0F172A">Speed Governor System (SLD)</text>
+        <text x="20" y="70" font-family="'Inter', sans-serif" font-size="10" fill="#64748B">Electronic, Cable &amp; Fuel Solenoid Types</text>
+        <text x="320" y="62" font-family="'Inter', sans-serif" font-weight="600" font-size="11" fill="#16A34A">AIS 018 / AIS 037 Compliant</text>
+
+        <!-- Row 2 -->
+        <line x1="0" y1="125" x2="540" y2="125" stroke="#E2E8F0"/>
+        <text x="20" y="103" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#0F172A">VLT Vehicle Location Tracking</text>
+        <text x="20" y="115" font-family="'Inter', sans-serif" font-size="10" fill="#64748B">Real-Time GNSS &amp; Emergency SOS</text>
+        <text x="320" y="108" font-family="'Inter', sans-serif" font-weight="600" font-size="11" fill="#16A34A">AIS 140 / IRNSS Certified</text>
+
+        <!-- Row 3 -->
+        <line x1="0" y1="175" x2="540" y2="175" stroke="#E2E8F0"/>
+        <text x="20" y="153" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#0F172A">Fuel &amp; Telematics Monitoring</text>
+        <text x="20" y="165" font-family="'Inter', sans-serif" font-size="10" fill="#64748B">Digital Ultrasonic &amp; Sensor Interfaces</text>
+        <text x="320" y="158" font-family="'Inter', sans-serif" font-weight="600" font-size="11" fill="#1D4ED8">Industrial IoT Standards</text>
+
+        <!-- Row 4 -->
+        <line x1="0" y1="225" x2="540" y2="225" stroke="#E2E8F0"/>
+        <text x="20" y="203" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#0F172A">RTO Verification &amp; Fitness Support</text>
+        <text x="20" y="215" font-family="'Inter', sans-serif" font-size="10" fill="#64748B">Commercial Fleet RTO Approval Support</text>
+        <text x="320" y="208" font-family="'Inter', sans-serif" font-weight="600" font-size="11" fill="#EA580C">Gujarat RTO Circle Network</text>
+      </g>
+    </g>
+
+    <!-- Stamp and Signatures Section -->
+    <g transform="translate(100, 670)">
+      <!-- Quality Assurance Seal -->
+      <g transform="translate(60, 40)">
+        <circle cx="40" cy="40" r="38" stroke="#DC2626" stroke-width="2.5" fill="none" stroke-dasharray="4 2"/>
+        <circle cx="40" cy="40" r="32" stroke="#DC2626" stroke-width="1" fill="none"/>
+        <text x="40" y="32" font-family="'Inter', sans-serif" font-weight="900" font-size="9" fill="#DC2626" text-anchor="middle">APPROVED</text>
+        <text x="40" y="44" font-family="'Inter', sans-serif" font-weight="700" font-size="8" fill="#DC2626" text-anchor="middle">MAHI ENT.</text>
+        <text x="40" y="55" font-family="'Inter', sans-serif" font-size="7" fill="#DC2626" text-anchor="middle">VERIFIED</text>
+      </g>
+
+      <!-- Signature Authority 1 -->
+      <g transform="translate(240, 60)">
+        <path d="M10 20 Q 40 5, 80 15 T 120 5" stroke="#1D4ED8" stroke-width="2" fill="none"/>
+        <line x1="0" y1="28" x2="140" y2="28" stroke="#94A3B8" stroke-width="1"/>
+        <text x="70" y="42" font-family="'Inter', sans-serif" font-weight="700" font-size="10" fill="#334155" text-anchor="middle">Technical Manager</text>
+        <text x="70" y="55" font-family="'Inter', sans-serif" font-size="9" fill="#64748B" text-anchor="middle">Vehicle Safety Division</text>
+      </g>
+
+      <!-- Signature Authority 2 -->
+      <g transform="translate(400, 60)">
+        <path d="M10 15 Q 35 30, 75 10 T 130 18" stroke="#0F172A" stroke-width="2" fill="none"/>
+        <line x1="0" y1="28" x2="140" y2="28" stroke="#94A3B8" stroke-width="1"/>
+        <text x="70" y="42" font-family="'Inter', sans-serif" font-weight="700" font-size="10" fill="#334155" text-anchor="middle">Authorized Representative</text>
+        <text x="70" y="55" font-family="'Inter', sans-serif" font-size="9" fill="#64748B" text-anchor="middle">MAHI ENTERPRISE</text>
+      </g>
+    </g>
+
+    <!-- Bottom Footnote -->
+    <text x="350" y="870" font-family="'Inter', sans-serif" font-size="9.5" fill="#94A3B8" text-anchor="middle">
+      Official Reference Document for AIS-140 VLT &amp; Speed Limiting Device Installation &amp; Compliance Verification
+    </text>
+  </g>
+</svg>
